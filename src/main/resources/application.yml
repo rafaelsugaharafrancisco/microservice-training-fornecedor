@@ -5,15 +5,6 @@ server:
 spring:
   application:
     name: 'fornecedor'
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-  datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_fornecedor
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
     
 eureka:
   client:
